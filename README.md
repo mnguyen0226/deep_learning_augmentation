@@ -54,7 +54,7 @@
 - Training: 
     - Step 1: Make sure your CPU is strong enough. I use 2 vCPU / 4 Gib Memory with 1 GPU - CUDA v10.0.
     - Step 2: Choose the augmented dataset that you want in **model_train.py**.
-    Step 3: Choose the path that you want to save your model in **model_train.py**.
+    - Step 3: Choose the path that you want to save your model in **model_train.py**.
     - Step 4 Run and Wait around 17 minutes per sections of the model training session.
      
         ```
