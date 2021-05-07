@@ -65,7 +65,11 @@
     - Training shuffled 64 images batch.
     - Testing 64 images batch.
 
-- Comparison Table
+- Comparison Table of ResNet9's Performances on each dataset:
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
 ## Augmented Datasets & Trained Models:
 - Augmented Imagenette-160 datasets can be found at: https://drive.google.com/drive/folders/1EmhRXzn3hxRhxlJwDE1JH4H0WCOg1Xm_?usp=sharing.
 - Trained Pytorch models can be found at: https://drive.google.com/drive/folders/1bHiVl3OqJ_cPFGhyv0Ph8cwYQmbFrnWG?usp=sharing.
