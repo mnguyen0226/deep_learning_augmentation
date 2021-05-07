@@ -33,7 +33,7 @@
     python test_image_aug.py
     ```
 
-## How To Augment Image & Train Agents
+## How To Augment Images & Train Agents
 - Note on set up machine for augmenting and training agents reprodution:
     - CUDA 10.0
     - Pytorch 1.2.0: https://pytorch.org/get-started/previous-versions/.
