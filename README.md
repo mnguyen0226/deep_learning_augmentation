@@ -4,18 +4,27 @@
 - Problem Statement: Deep convolutional neural networks have been shown to perform remarkably well in image classification tasks in recent years. However, these networks require extremely large training sets in order to train effectively and avoid overfitting. This problem of generalization can be critical to certain tasks, where it is either not possible or not feasible to obtain a suitably large dataset.
 - Intended Approach: Image augmentation is the technique of deriving augmented images from an existing training set and creating a new training set from the original and augmented images. Using the technique of image augmentation, deep learning image classifiers can achieve superior performance with smaller datasets, thus alleviating the data collection and labeling problem. We intend to utilize a variety of image augmentation techniques learned in ECE 4580 - Digital Image Processing in Spring 2021.
 ## About Neural Network Agent:
-- Model summary
+- Model summary can be found ata
 
 ## About Image Augmentation Methods
 - add testing script
-
-## Results & Comparisons
-- Comparison Table
-## Converted Datasets:
-
 ## How To Augment Image & Train Agents
 - Version Pytorch + CPU
+- Cloudera
+## Results & Comparisons
+- Results for training and validating ResNet9 on each image augmentation datasets can be found at: https://github.com/mnguyen0226/image-augmentation-dnn-performance/tree/main/train_results including:
+    - "Accuracy vs Each Epoch" graphs.
+    - "Learning Rate vs Batch Number" graphs.
+    - "Loss Rate vs Each Epoch" graphs.
+    - 1 testing image classification in testing batch.
+    - Training results after 30 epochs.
+    - Training shuffled 64 images batch.
+    - Testing 64 images batch.
 
+- Comparison Table
+## Augmented Datasets & Trained Models:
+- Augmented Imagenette Datasets can be found at:
+- Trained Pytorch models can be found at: 
 ## Reports
 - Proposal:
 - Final Research Paper:
