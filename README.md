@@ -12,12 +12,15 @@
     - Rotate: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/affine/rotate.py.
     - Shear Vertically & Horizontally: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/affine/shear.py.
     - Translate: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/affine/translate.py.
+
 - Canny Edge Detections: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/edge_detection/canny_edge.py.
+
 - Frequency Filter - Gaussian, Ideal, Butterworth:
     -   Frequency Filter: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/frequency/frequency_filter.py.
         - Bandpass Filter: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/frequency/bandpass.py.
         - Highpass Filter: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/frequency/highpass.py.
         - Lowpass Filter: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/frequency/lowpass.py.
+        
 - Intensity Manipulation: 
     - Adaptive Median Filter: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/intensity/amf.py.
     - Histogram Equalization: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/intensity/hist_equalization.py.
