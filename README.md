@@ -1,27 +1,27 @@
 # Image Augmentation for Improvement of Performance of Deep Learning Image Classifiers Project - ECE 4580
 
 ## About This Project
-- Problem Statement: Deep convolutional neural networks have been shown to perform remarkably well in image classification tasks in recent years. However, these networks require extremely large training sets in order to train effectively and avoid overfitting. This problem of generalization can be critical to certain tasks, where it is either not possible or not feasible to obtain a suitably large dataset.
-- Intended Approach: Image augmentation is the technique of deriving augmented images from an existing training set and creating a new training set from the original and augmented images. Using the technique of image augmentation, deep learning image classifiers can achieve superior performance with smaller datasets, thus alleviating the data collection and labeling problem. We intend to utilize a variety of image augmentation techniques learned in ECE 4580 - Digital Image Processing in Spring 2021.
+- **Problem Statement:** Deep convolutional neural networks have been shown to perform remarkably well in image classification tasks in recent years. However, these networks require extremely large training sets in order to train effectively and avoid overfitting. This problem of generalization can be critical to certain tasks, where it is either not possible or not feasible to obtain a suitably large dataset.
+- **Intended Approach:** Image augmentation is the technique of deriving augmented images from an existing training set and creating a new training set from the original and augmented images. Using the technique of image augmentation, deep learning image classifiers can achieve superior performance with smaller datasets, thus alleviating the data collection and labeling problem. We intend to utilize a variety of image augmentation techniques learned in ECE 4580 - Digital Image Processing in Spring 2021.
 ## About Neural Network Agent:
 - Model ResNet9 summary can be found at: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/classifier/model_summary.txt
 
 ## About Image Augmentation Methods
-- Affine:
+- **Affine:**
     - Flip Vertically & Horizontally: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/affine/flip.py.
     - Rotate: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/affine/rotate.py.
     - Shear Vertically & Horizontally: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/affine/shear.py.
     - Translate: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/affine/translate.py.
 
-- Canny Edge Detections: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/edge_detection/canny_edge.py.
+- **Canny Edge Detection:** https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/edge_detection/canny_edge.py.
 
-- Frequency Filter - Gaussian, Ideal, Butterworth:
+- **Frequency Filters - Gaussian, Ideal, Butterworth:**
     -   Frequency Filter: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/frequency/frequency_filter.py.
         - Bandpass Filter: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/frequency/bandpass.py.
         - Highpass Filter: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/frequency/highpass.py.
         - Lowpass Filter: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/frequency/lowpass.py.
-        
-- Intensity Manipulation: 
+
+- **Intensity Manipulations:** 
     - Adaptive Median Filter: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/intensity/amf.py.
     - Histogram Equalization: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/intensity/hist_equalization.py.
     - Invert: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/intensity/invert.py.
