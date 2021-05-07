@@ -1,6 +1,6 @@
-from augmentation.frequency.lowpass import *
-from augmentation.frequency.bandpass import *
-from augmentation.frequency.highpass import *
+from Minh.DIP.augmentation.frequency.lowpass import *
+from Minh.DIP.augmentation.frequency.bandpass import *
+from Minh.DIP.augmentation.frequency.highpass import *
 
 import math
 import numpy as np
@@ -29,6 +29,11 @@ def freq_filter(origin_img, cutoff = 8, order = 2, filter_name = "gaussian_lpf")
     origin_img = rgb2gray(origin_img)
 
     shape = np.shape(origin_img)
+    
+    if(len(shape) == 1):
+      return
+    
+#    print(f"TESTING: Shape is {shape}")
 
     # get the mask (write your code in functions provided above) the functions can be called by self.filter(shape, cutoff, order)
     if (filter_name == "ideal_lpf"):
@@ -82,11 +87,11 @@ def freq_filter(origin_img, cutoff = 8, order = 2, filter_name = "gaussian_lpf")
 
     # full contrast stretch
     filtered_image = post_process_image(mag)
-    
+
     # convert two 3 dim
     if (filtered_image.ndim == 2):
-        filtered_image = np.expand_dims(filtered_image, axis = 2)
-
+      filtered_image = np.expand_dims(filtered_image, axis = 2)
+    
     return filtered_image
 
 def rgb2gray(rgb):

@@ -130,6 +130,9 @@ def amf(
     np.ndarray
         adaptive median filtered image
     """
+    if(len(orig_img.shape) == 2):
+      return
+    
     # assert that kernel sizes are odd
     assert init_kernel_size % 2 == 1, "Initial kernel size must be odd"
     assert max_kernel_size % 2 == 1, "Max kernel size must be odd"

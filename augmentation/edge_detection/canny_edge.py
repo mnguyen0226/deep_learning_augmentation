@@ -209,12 +209,12 @@ def canny(origin_img):
     im_hys3 = hysteresis(im_thres3, weak3, strong3)
 
     im_final = im_hys1 + im_hys2 + im_hys3
-
+    
     im_final = im_final/3.0
 
     # convert two 3 dim
     if (im_final.ndim == 2):
-        im_final = np.expand_dims(im_final, axis = 2)
+      im_final = np.expand_dims(im_final, axis = 2)
 
     return im_final
 

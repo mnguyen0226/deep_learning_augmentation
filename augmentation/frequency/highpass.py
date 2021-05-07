@@ -1,4 +1,4 @@
-from augmentation.frequency.lowpass import *
+from Minh.DIP.augmentation.frequency.lowpass import *
 
 import math
 import numpy as np
