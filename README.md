@@ -7,7 +7,21 @@
 - Model ResNet9 summary can be found at: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/classifier/model_summary.txt
 
 ## About Image Augmentation Methods
-
+- Affine:
+    - Flip Vertically & Horizontally: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/affine/flip.py.
+    - Rotate: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/affine/rotate.py.
+    - Shear Vertically & Horizontally: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/affine/shear.py.
+    - Translate: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/affine/translate.py.
+- Canny Edge Detections: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/edge_detection/canny_edge.py.
+- Frequency Filter - Gaussian, Ideal, Butterworth:
+    -   Frequency Filter: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/frequency/frequency_filter.py.
+        - Bandpass Filter: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/frequency/bandpass.py.
+        - Highpass Filter: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/frequency/highpass.py.
+        - Lowpass Filter: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/frequency/lowpass.py.
+- Intensity Manipulation: 
+    - Adaptive Median Filter: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/intensity/amf.py.
+    - Histogram Equalization: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/intensity/hist_equalization.py.
+    - Invert: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/intensity/invert.py.
 ## How To Test Image Augmentation Methods
 - add testing script
 
@@ -36,6 +50,7 @@
 - C. Shorten and T. M. Khoshgoftaar, “A survey on Image Data Augmentation for Deep Learning,” Journal of Big Data, vol. 6, no. 1, 2019.
 - K. He, X. Zhang, S. Ren, and J. Sun, “Deep Residual Learning for Image Recognition,” arXiv.org, 10-Dec-2015. [Online]. Available: https://arxiv.org/abs/1512.03385. [Accessed: 06-May-2021]. 
 - Fastai, “fastai/imagenette,” GitHub. [Online]. Available: https://github.com/fastai/imagenette. [Accessed: 08-Apr-2021].
+- Collections of Digital Image Processing Techniques: https://github.com/mnguyen0226/opencv-digital-image-processing
 - One Cycle Learning Rate: https://github.com/dkumazaw/onecyclelr
 
 ## Honor Code @VT
