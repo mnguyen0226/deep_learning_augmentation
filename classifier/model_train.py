@@ -1,14 +1,3 @@
-"""
-Note on installation to open the saved model
-- CUDA 10.0
-- Pytorch 1.2.0
-
-How to install:
-  https://varhowto.com/install-pytorch-cuda-10-0/#:~:text=Note%3A%20PyTorch%20only%20supports%20CUDA,cu100%2Ftorch_stable.html).
-
-Pytorch Installation:
-  https://pytorch.org/
-"""
 import os
 import numpy as np
 import torch
