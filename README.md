@@ -29,7 +29,7 @@
 - Proposal: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/reports/Image%20Augmentations%20CNN%20Proposal.pdf.
 - Final Research Paper:
 
-## References:
+## References
 - C. Shorten and T. M. Khoshgoftaar, “A survey on Image Data Augmentation for Deep Learning,” Journal of Big Data, vol. 6, no. 1, 2019.
 - K. He, X. Zhang, S. Ren, and J. Sun, “Deep Residual Learning for Image Recognition,” arXiv.org, 10-Dec-2015. [Online]. Available: https://arxiv.org/abs/1512.03385. [Accessed: 06-May-2021]. 
 - Fastai, “fastai/imagenette,” GitHub. [Online]. Available: https://github.com/fastai/imagenette. [Accessed: 08-Apr-2021].
