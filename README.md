@@ -65,11 +65,11 @@
     - Training shuffled 64 images batch.
     - Testing 64 images batch.
 
-- Comparison Table of ResNet9's Performances on each dataset:
+- Comparison Table of ResNet9's Performances on each dataset (the information is extracted from https://github.com/mnguyen0226/image-augmentation-dnn-performance/tree/main/train_results):
 
-Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
+Dataset | Best Accuracy | Latest Accuracy at Epoch 30 | Latest Loss at Epoch 30 | Latest Learning Rate at Epoch 30
+--- | --- | --- | --- |--- 
+Seconds | 301 | 283 | 290 | 286 
 
 ## Augmented Datasets & Trained Models:
 - Augmented Imagenette-160 datasets can be found at: https://drive.google.com/drive/folders/1EmhRXzn3hxRhxlJwDE1JH4H0WCOg1Xm_?usp=sharing.
