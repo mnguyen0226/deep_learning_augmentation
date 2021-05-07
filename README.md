@@ -26,7 +26,7 @@
 - Augmented Imagenette-160 datasets can be found at: https://drive.google.com/drive/folders/1EmhRXzn3hxRhxlJwDE1JH4H0WCOg1Xm_?usp=sharing.
 - Trained Pytorch models can be found at: https://drive.google.com/drive/folders/1bHiVl3OqJ_cPFGhyv0Ph8cwYQmbFrnWG?usp=sharing.
 ## Reports
-- Proposal:
+- Proposal: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/reports/Image%20Augmentations%20CNN%20Proposal.pdf.
 - Final Research Paper:
 
 ## References:
