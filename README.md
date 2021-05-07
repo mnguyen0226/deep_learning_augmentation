@@ -35,15 +35,26 @@
     - Pytorch 1.2.0: https://pytorch.org/get-started/previous-versions/.
     - GPU that I use - Cloudera:
 ![alt text](https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/train_results/Cloudera.PNG)
+    - Augmenting dataset(s) & training models will take a very long time, even with GPU. If you are interested in pre-augmented "Imagenette-160" and pre-trained ResNet9 models, please check the section below.
 
 - Images Augmentation Task:
-    - Step 1: Set up the right image path and image-save path in process_image.py.
-    - Step 2: Choose the augmentation methods that you prefer in process_image.py
-    - Step 3:
+    - Step 1: Make sure your CPU is strong enough. I use 2 vCPU / 4 Gib Memory.
+    - Step 2: Set up the right image path and image-save path in **process_image.py**.
+    - Step 3: Choose the augmentation methods that you prefer in **process_image.py**.
+    - Step 4 Run and Wait 10 minutes to 1.25 hour per sections of the training datasets (depends on what augmentation method you choose).
         ```
         python preprocess_image.py
         ```
+
 - Training: 
+    - Step 1: Make sure your CPU is strong enough. I use 2 vCPU / 4 Gib Memory with 1 GPU - CUDA v10.0.
+    - Step 2: Choose the augmented dataset that you want in **model_train.py**.
+    Step 3: Choose the path that you want to save your model in **model_train.py**.
+    - Step 4 Run and Wait around 17 minutes per sections of the model training session.
+        ```
+        python model_train.py
+        ```
+
 ## Results & Comparisons
 - Results for training and validating ResNet9 on each image augmentation datasets can be found at: https://github.com/mnguyen0226/image-augmentation-dnn-performance/tree/main/train_results including:
     - "Accuracy vs Each Epoch" graphs.
