@@ -67,25 +67,25 @@
 
 - Comparison Table of ResNet9's Performances on each dataset (the information is extracted from https://github.com/mnguyen0226/image-augmentation-dnn-performance/tree/main/train_results):
 
-Dataset | Best Accuracy | Latest Accuracy at Epoch 30 | Latest Loss at Epoch 30 | Latest Learning Rate at Epoch 30 | Dataset Augmenting Time | ResNet9 Training Time
+Dataset | Best Accuracy | Latest Accuracy at Epoch 30 | Latest Loss at Epoch 30 | Latest Learning Rate at Epoch 30 | Dataset Augmenting Time | ResNet9 Training Time on GPU
 --- | --- | --- | --- | --- | --- | ---
-Imagenette-160 Original | 72.09 | 72.09 | 0.01 | 0 | 0 | 17 minutes
-Imageneete-160 Horizontal Flip | 301 | 283 | 0.01 | 0 | 0.01 | 17 minutes
-Imagenette-160 Vertical Flip | 301 | 283 | 0.01 | 0 | 0.01 | 17 minutes
-Imagenette-160 Random Rotation | 301 | 283 | 0.01 | 0 | 0.01 | 17 minutes
-Imagenette-160 Horizontal Shear | 301 | 283 | 0.01 | 0 | 0.01 | 17 minutes
-Imagenette-160 Vertical Shear | 301 | 283 | 0.01 | 0 | 0.01 | 17 minutes
-Imagenette-160 Translation | 301 | 283 | 0.01 | 0 | 0.01 | 17 minutes
-Imagenette-160 Ideal Highpass Filter | 301 | 283 | 0.01 | 0 | 0.01 | 17 minutes
-Imagenette-160 Ideal Lowpass Filter | 301 | 283 | 0.01 | 0 | 0.01 | 17 minutes
-Imagenette-160 Gaussian Highpass Filter | 301 | 283 | 0.01 | 0 | 0.01 | 17 minutes
-Imagenette-160 Gaussian Lowpass Filter | 301 | 283 | 0.01 | 0 | 0.01 | 17 minutes
-Imagenette-160 Butterworth Highpass Filter | 301 | 283 | 0.01 | 0 | 0.01 | 17 minutes
-Imagenette-160 Butterworth Lowpass Filter | 301 | 283 | 0.01 | 0 | 0.01 | 17 minutes
-Imagenette-160 Adaptive Median Filter | 301 | 283 | 0.01 | 0 | 0.01 | 17 minutes
-Imagenette-160 Histogram Equalization | 301 | 283 | 0.01 | 0 | 0.01 | 17 minutes
-Imagenette-160 Invert | 301 | 283 | 0.01 | 0 | 0.01 | 17 minutes
-Imagenette-160 Canny Edge Detection | 301 | 283 | 0.01 | 0 | 0.01 | 17 minutes
+Imagenette-160 Original | 72.09% | 72.09% | 0.01 | 0 | 0 | 17 minutes
+Imageneete-160 Horizontal Flip | 78.53% | 62.24% | 0.01 | 0 | 45 minutes | 17 minutes
+Imagenette-160 Vertical Flip | 77.25% | 73.54% | 0.01 | 0 | 45 minutes | 17 minutes
+Imagenette-160 Random Rotation | 68.86% | 65.80% | 0.01 | 0 | 47 minutes | 17 minutes
+Imagenette-160 Horizontal Shear | 75.26% | 72.16 | 0.01 | 0 | 47 minutes | 17 minutes
+Imagenette-160 Vertical Shear | 74.41% | 73.41% | 0.01 | 0 | 45 minutes | 17 minutes
+Imagenette-160 Translation | 74.31% | 63.22% | 0.01 | 0 | 48 minutes | 17 minutes
+Imagenette-160 Ideal Highpass Filter | 68.69% | 66.64% | 0.01 | 0 | 185 minutes | 17 minutes
+Imagenette-160 Ideal Lowpass Filter | 63.54% | 59.96% | 0.01 | 0 | 185 minutes | 17 minutes
+Imagenette-160 Gaussian Highpass Filter | 70.42% | 66.88% | 0.01 | 0 | 185 minutes | 17 minutes
+Imagenette-160 Gaussian Lowpass Filter | 69.15% | 63.71% | 0.01 | 0 | 185 minutes | 17 minutes
+Imagenette-160 Butterworth Highpass Filter | 68.32% | 62.55% | 0.01 | 0 | 185 minutes | 17 minutes
+Imagenette-160 Butterworth Lowpass Filter | 67.76% | 59.94% | 0.01 | 0 | 185 minute | 17 minutes
+Imagenette-160 Adaptive Median Filter | 78.29% | 69.44% | 0.01 | 0 | 595 minutes | 17 minutes
+Imagenette-160 Histogram Equalization | 69.4% | 68.30% | 0.01 | 0 | 46 minutes | 17 minutes
+Imagenette-160 Invert | 69.80% | 67.62% | 0.01 | 0 | 43 minutes | 17 minutes
+Imagenette-160 Canny Edge Detection | 62.63% | 61.99% | 0.01 | 0 | 130 minutes | 17 minutes
 
 ## Augmented Datasets & Trained Models:
 - Augmented Imagenette-160 datasets can be found at: https://drive.google.com/drive/folders/1EmhRXzn3hxRhxlJwDE1JH4H0WCOg1Xm_?usp=sharing.
