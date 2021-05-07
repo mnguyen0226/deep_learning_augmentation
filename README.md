@@ -23,8 +23,8 @@
 
 - Comparison Table
 ## Augmented Datasets & Trained Models:
-- Augmented Imagenette Datasets can be found at:
-- Trained Pytorch models can be found at: 
+- Augmented Imagenette-160 datasets can be found at: https://drive.google.com/drive/folders/1EmhRXzn3hxRhxlJwDE1JH4H0WCOg1Xm_?usp=sharing.
+- Trained Pytorch models can be found at: https://drive.google.com/drive/folders/1bHiVl3OqJ_cPFGhyv0Ph8cwYQmbFrnWG?usp=sharing.
 ## Reports
 - Proposal:
 - Final Research Paper:
