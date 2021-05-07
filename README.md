@@ -26,12 +26,19 @@
     - Adaptive Median Filter: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/intensity/amf.py.
     - Histogram Equalization: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/intensity/hist_equalization.py.
     - Invert: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/intensity/invert.py.
-## How To Test Image Augmentation Methods
-- add testing script
+## How To Test Image Augmentation Methods (Recommend Using This For Testing Augmentation Methods For Your Uses)
+- Augmentation-method testing script can be found at: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/test_image_aug.py
 
 ## How To Augment Image & Train Agents
-- Version Pytorch + CPU
-- Cloudera
+- Note on set up machine for augmenting and training agents reprodution:
+    - CUDA 10.0
+    - Pytorch 1.2.0: https://pytorch.org/get-started/previous-versions/.
+    - GPU that I use - Cloudera:
+![alt text](https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/train_results/Cloudera.PNG)
+
+- Augmenting Image:
+
+- Training: 
 ## Results & Comparisons
 - Results for training and validating ResNet9 on each image augmentation datasets can be found at: https://github.com/mnguyen0226/image-augmentation-dnn-performance/tree/main/train_results including:
     - "Accuracy vs Each Epoch" graphs.
