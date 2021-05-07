@@ -28,6 +28,7 @@
     - Invert: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/intensity/invert.py.
 ## How To Test Image Augmentation Methods (Recommend Using This For Testing Augmentation Methods For Your Uses)
 - Augmentation-method testing script can be found at: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/test_image_aug.py.
+    
     ```
     python test_image_aug.py
     ```
@@ -45,6 +46,7 @@
     - Step 2: Set up the right image path and image-save path in **process_image.py**.
     - Step 3: Choose the augmentation methods that you prefer in **process_image.py**.
     - Step 4 Run and Wait 10 minutes to 1.25 hour per sections of the training datasets (depends on what augmentation method you choose).
+     
         ```
         python preprocess_image.py
         ```
@@ -54,6 +56,7 @@
     - Step 2: Choose the augmented dataset that you want in **model_train.py**.
     Step 3: Choose the path that you want to save your model in **model_train.py**.
     - Step 4 Run and Wait around 17 minutes per sections of the model training session.
+     
         ```
         python model_train.py
         ```
