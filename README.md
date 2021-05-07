@@ -27,7 +27,10 @@
     - Histogram Equalization: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/intensity/hist_equalization.py.
     - Invert: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/augmentation/intensity/invert.py.
 ## How To Test Image Augmentation Methods (Recommend Using This For Testing Augmentation Methods For Your Uses)
-- Augmentation-method testing script can be found at: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/test_image_aug.py
+- Augmentation-method testing script can be found at: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/test_image_aug.py.
+    ```
+    python test_image_aug.py
+    ```
 
 ## How To Augment Image & Train Agents
 - Note on set up machine for augmenting and training agents reprodution:
@@ -99,7 +102,7 @@ Imagenette-160 Canny Edge Detection | 62.63% | 61.99% | 0.01 | 0 | 130 minutes |
 - K. He, X. Zhang, S. Ren, and J. Sun, “Deep Residual Learning for Image Recognition,” arXiv.org, 10-Dec-2015. [Online]. Available: https://arxiv.org/abs/1512.03385. [Accessed: 06-May-2021]. 
 - Fastai, “fastai/imagenette,” GitHub. [Online]. Available: https://github.com/fastai/imagenette. [Accessed: 08-Apr-2021].
 - Collections of Digital Image Processing Techniques: https://github.com/mnguyen0226/opencv-digital-image-processing
-- One Cycle Learning Rate: https://github.com/dkumazaw/onecyclelr
+- One Cycle Learning Rate: https://github.com/dkumazaw/onecyclelr.
 
 ## Honor Code @VT
 You know what VT's Honor Code is, Hokies :). Don't do it. You have been warned.
