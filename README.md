@@ -68,7 +68,7 @@
 - Comparison Table of ResNet9's Performances on each dataset (the information is extracted from https://github.com/mnguyen0226/image-augmentation-dnn-performance/tree/main/train_results):
 
 Dataset | Best Accuracy | Latest Accuracy at Epoch 30 | Latest Loss at Epoch 30 | Latest Learning Rate at Epoch 30 | Dataset Augmenting Time | ResNet9 Training Time
---- | --- | --- | --- |--- 
+--- | --- | --- | --- | --- | --- | ---
 Imagenette-160 | 301 | 283 | 290 | 286 | 290 | 286
 Imageneete-160 Horizontal Flip | 301 | 283 | 290 | 286 
 Imagenette-160 Vertical Flip | 301 | 283 | 290 | 286 | 290 | 286
