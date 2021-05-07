@@ -69,23 +69,23 @@
 
 Dataset | Best Accuracy | Latest Accuracy at Epoch 30 | Latest Loss at Epoch 30 | Latest Learning Rate at Epoch 30 | Dataset Augmenting Time | ResNet9 Training Time
 --- | --- | --- | --- | --- | --- | ---
-Imagenette-160 | 301 | 283 | 290 | 286 | 290 | 286
-Imageneete-160 Horizontal Flip | 301 | 283 | 290 | 286 | 290 | 286
-Imagenette-160 Vertical Flip | 301 | 283 | 290 | 286 | 290 | 286
-Imagenette-160 Random Rotation | 301 | 283 | 290 | 286 | 290 | 286
-Imagenette-160 Horizontal Shear | 301 | 283 | 290 | 286 | 290 | 286
-Imagenette-160 Vertical Shear | 301 | 283 | 290 | 286 | 290 | 286
-Imagenette-160 Translation | 301 | 283 | 290 | 286 | 290 | 286
-Imagenette-160 Ideal Highpass Filter | 301 | 283 | 290 | 286 | 290 | 286
-Imagenette-160 Ideal Lowpass Filter | 301 | 283 | 290 | 286 | 290 | 286
-Imagenette-160 Gaussian Highpass Filter | 301 | 283 | 290 | 286 | 290 | 286
-Imagenette-160 Gaussian Lowpass Filter | 301 | 283 | 290 | 286 | 290 | 286
-Imagenette-160 Butterworth Highpass Filter | 301 | 283 | 290 | 286 | 290 | 286
-Imagenette-160 Butterworth Lowpass Filter | 301 | 283 | 290 | 286 | 290 | 286
-Imagenette-160 Adaptive Median Filter | 301 | 283 | 290 | 286 | 290 | 286
-Imagenette-160 Histogram Equalization | 301 | 283 | 290 | 286 | 290 | 286
-Imagenette-160 Invert | 301 | 283 | 290 | 286 | 290 | 286
-Imagenette-160 Canny Edge Detection | 301 | 283 | 290 | 286 | 290 | 286
+Imagenette-160 Original | 72.09 | 72.09 | 0.01 | 0 | 0 | 17 minutes
+Imageneete-160 Horizontal Flip | 301 | 283 | 0.01 | 0 | 0.01 | 17 minutes
+Imagenette-160 Vertical Flip | 301 | 283 | 0.01 | 0 | 0.01 | 17 minutes
+Imagenette-160 Random Rotation | 301 | 283 | 0.01 | 0 | 0.01 | 17 minutes
+Imagenette-160 Horizontal Shear | 301 | 283 | 0.01 | 0 | 0.01 | 17 minutes
+Imagenette-160 Vertical Shear | 301 | 283 | 0.01 | 0 | 0.01 | 17 minutes
+Imagenette-160 Translation | 301 | 283 | 0.01 | 0 | 0.01 | 17 minutes
+Imagenette-160 Ideal Highpass Filter | 301 | 283 | 0.01 | 0 | 0.01 | 17 minutes
+Imagenette-160 Ideal Lowpass Filter | 301 | 283 | 0.01 | 0 | 0.01 | 17 minutes
+Imagenette-160 Gaussian Highpass Filter | 301 | 283 | 0.01 | 0 | 0.01 | 17 minutes
+Imagenette-160 Gaussian Lowpass Filter | 301 | 283 | 0.01 | 0 | 0.01 | 17 minutes
+Imagenette-160 Butterworth Highpass Filter | 301 | 283 | 0.01 | 0 | 0.01 | 17 minutes
+Imagenette-160 Butterworth Lowpass Filter | 301 | 283 | 0.01 | 0 | 0.01 | 17 minutes
+Imagenette-160 Adaptive Median Filter | 301 | 283 | 0.01 | 0 | 0.01 | 17 minutes
+Imagenette-160 Histogram Equalization | 301 | 283 | 0.01 | 0 | 0.01 | 17 minutes
+Imagenette-160 Invert | 301 | 283 | 0.01 | 0 | 0.01 | 17 minutes
+Imagenette-160 Canny Edge Detection | 301 | 283 | 0.01 | 0 | 0.01 | 17 minutes
 
 ## Augmented Datasets & Trained Models:
 - Augmented Imagenette-160 datasets can be found at: https://drive.google.com/drive/folders/1EmhRXzn3hxRhxlJwDE1JH4H0WCOg1Xm_?usp=sharing.
