@@ -98,7 +98,7 @@ Imagenette-160 Canny Edge Detection | 62.63% | 61.99% | 130 minutes | 17 minutes
 - Trained Pytorch models can be found at: https://drive.google.com/drive/folders/1bHiVl3OqJ_cPFGhyv0Ph8cwYQmbFrnWG?usp=sharing.
 ## Reports
 - Proposal: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/reports/Image%20Augmentations%20CNN%20Proposal.pdf.
-- Final Research Paper:
+- Final Research Paper: https://github.com/mnguyen0226/image-augmentation-dnn-performance/blob/main/reports/Minh_Nguyen_Final_Report.pdf
 
 ## References
 - C. Shorten and T. M. Khoshgoftaar, “A survey on Image Data Augmentation for Deep Learning,” Journal of Big Data, vol. 6, no. 1, 2019.
