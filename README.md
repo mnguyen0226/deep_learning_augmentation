@@ -62,7 +62,7 @@
         ```
 
 ## Results & Comparisons
-- Results for training and validating ResNet9 on each image augmentation datasets can be found at: https://github.com/mnguyen0226/image-augmentation-dnn-performance/tree/main/train_results including:
+- Results for training and validating ResNet9 on each image augmentation datasets can be found at [here](https://github.com/mnguyen0226/image-augmentation-dnn-performance/tree/main/train_results) including:
     - "Accuracy vs Each Epoch" graphs.
     - "Learning Rate vs Batch Number" graphs.
     - "Loss Rate vs Each Epoch" graphs.
@@ -71,7 +71,7 @@
     - Training shuffled 64 images batch.
     - Testing 64 images batch.
 
-- Comparison Table of ResNet9's Performances on each dataset (the information is extracted from https://github.com/mnguyen0226/image-augmentation-dnn-performance/tree/main/train_results):
+- Comparison Table of ResNet9's Performances on each dataset (the information is extracted from [here](https://github.com/mnguyen0226/image-augmentation-dnn-performance/tree/main/train_results):
 
 Dataset | Best Accuracy | Latest Accuracy at Epoch 30 | Dataset Augmenting Time | ResNet9 Training Time on GPU
 --- | --- | --- | --- | --- 
