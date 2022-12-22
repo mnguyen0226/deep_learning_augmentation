@@ -1,4 +1,4 @@
-# Image Augmentation for Improvement of Performance of Deep Learning Image Classifiers Project - ECE 4580
+# Image Augmentation for Improvement of Performance of Deep Learning Image Classifiers Project
 
 ## About This Project
 - **Problem Statement:** Deep convolutional neural networks have been shown to perform remarkably well in image classification tasks in recent years. However, these networks require extremely large training sets in order to train effectively and avoid overfitting. This problem of generalization can be critical to certain tasks, where it is either not possible or not feasible to obtain a suitably large dataset.
